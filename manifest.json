@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Focus Timer",
+    "version": "1.0",
+    "description": "A customizable Pomodoro timer to help you stay focused.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Open Timer"
+    },
+    "permissions": [
+        "alarms",
+        "storage",
+        "offscreen"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

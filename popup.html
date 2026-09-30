@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="timer-display">25:00</h1>
+        <h2 id="status">Work Time</h2>
+        <p id="session-tracker">Sessions Today: <span id="session-count">0</span></p>
+
+        <div class="controls">
+            <button id="start-btn">Start</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <div class="settings">
+            <label>Work (min): <input type="number" id="work-time" value="25" min="1" max="120"></label>
+            <label>Break (min): <input type="number" id="break-time" value="5" min="1" max="30"></label>
+            <button id="save-btn">Save Settings</button>
+        </div>
+    </div>
+
+    <!-- We link our JavaScript at the bottom so it loads after the HTML -->
+    <script src="popup.js"></script>
+    <script src="background.js"></script>
+</body>
+
+</html>

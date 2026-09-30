@@ -1,0 +1,78 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    width: 260px;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    background-color: #fcfcfc;
+    color: #333;
+}
+
+h1#timer-display {
+    font-size: 3.5rem;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+h2#status {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.settings {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+.settings label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.settings input {
+    width: 50px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#save-btn {
+    background-color: #28a745;
+    width: 90%;
+    margin-top: 5px;
+}
+
+#save-btn:hover {
+    background-color: #218838;
+}
+
+#session-tracker {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
